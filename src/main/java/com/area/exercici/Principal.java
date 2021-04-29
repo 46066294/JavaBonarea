@@ -14,6 +14,7 @@ package com.area.exercici;
 public class Principal {
     public static void main(String[] args) {
         float sueldoTotal = 0;
+        
         Empleado[] empleados = new Empleado[5];
         empleados[0] = new Empleado("jose","lopez", 95.15f);
         empleados[1] = new Empleado("pedro","paez", 150.50f);
@@ -21,7 +22,7 @@ public class Principal {
         empleados[3] = new Empleado("david","garcia", 300.99f);
         empleados[4] = new Empleado("sara","papas", 578.09f);
         
-        for (Empleado item: empleados) sueldoTotal += item.sueldo;
+        for (Empleado item: empleados) sueldoTotal += item.getSueldo();
         
         System.out.println("Sueldo total: " + sueldoTotal);
         
