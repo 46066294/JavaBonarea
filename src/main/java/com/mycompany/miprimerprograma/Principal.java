@@ -19,10 +19,10 @@ public class Principal {
         
         // sout
         
-        BigDecimal bdSuma = calculadora.suma(new BigDecimal(1.505), new BigDecimal(1.440));
+        BigDecimal bdSuma = calculadora.suma(new BigDecimal("1.505"), new BigDecimal("1.440"));
         System.out.println("BigDecimal: La suma és: " + bdSuma);
         
-        BigDecimal bdResta = calculadora.resta(new BigDecimal(2), new BigDecimal(3));
+        BigDecimal bdResta = calculadora.resta(new BigDecimal("2"), new BigDecimal("3"));
         System.out.println("BigDecimal: La resta és: " + bdResta);
         
         

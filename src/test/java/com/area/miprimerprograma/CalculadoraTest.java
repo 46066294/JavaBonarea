@@ -19,6 +19,8 @@ public class CalculadoraTest {
     
     Calculadora calculadora = new Calculadora();
     
+    // @Test:
+    // indicar al compilador que aquesta funció és d test. No d'aplicació Java
     @Test
     void testSuma(){
         assertEquals(2, calculadora.suma(1,1));
@@ -26,7 +28,7 @@ public class CalculadoraTest {
     
     @Test
     void testSumaFloat(){
-        assertEquals(2, calculadora.suma(2.10f, 3.40f));
+        assertEquals(5.5, calculadora.suma(2.10f, 3.40f)); // es posa la f per indicar q es float
     }
     
     @Test
